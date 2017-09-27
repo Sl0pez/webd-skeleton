@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+img.center {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}   
+
+#bzf3 {
+    width: 55%;
+}
+
+p {
+    font-family: "Raleway", Arial;   
+}
+
+body {
+    background-color: antiquewhite;
+}
