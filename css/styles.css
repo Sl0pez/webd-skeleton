@@ -1,49 +1,73 @@
 h1 {
-    color: #a67c00;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin-top: 10px;
-}
-
-h2 {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    padding-top: 30px;
-}
-
-
-a:link {
-    color: #00CCD6;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #00CCD6;
-    text-decoration: none;
-
-}
-
-a:hover {
     color: black;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 7em;
+}
+
+article {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+figure {
+    position: relative;
+    width: 30%;
+    display: inline-block;
+    margin: 1.65%;
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+}
+
+figcaption {
+    background-color: black;
+    color: #FFF;
+    font-size: 3em;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: opacity .4s ease;
+    padding-top: 1.3em;
+}
+
+figcaption:hover {
+    opacity: .7;
+}
+
+.caption {
+    text-align: center;
+    padding-top: 10%;
+    color: #a67c00;
+    padding-left: 1em;
+    padding-right: 1em;
+
 }
 
 body {
-    background-image: url(../imgs/background.jpg);
-    background-repeat: no-repeat;
+    background-color: #3B6287;
+    background: linear-gradient (left top, #3B6287, white);
+    background: -webkit-linear-gradient( left top, #3B6287, white);
     background-size: 100%;
     height: 100%;
-}s
+}
 
 article {
     margin-top: 50px;
     min-height: 100%;
     position: relative;
-
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    padding-bottom: 15px;
     text-align: center;
 }
