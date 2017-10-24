@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    background-color: #EFEFEF;
+    width: auto;
+}
+
+nav {
+    background-color: #424242;
+    padding-bottom: .75em;
+    padding-top: .75em;
+    opacity: .9
+}
+
+.current-page {
+    color: 	#a67c00;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-links:link {
+    color: #FFF;
+    text-decoration:none;
+}
+
+.nav-links:visited {
+    color: #fff;
+    text-decoration:none;
+}
+
+.nav-links:hover {
+    color: #00CCD6;
+}
+
+.links1 {
+    text-align: center;
+}
+
+
+li {
+    list-style: none;
+    display: inline;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.3em;
+}
+
+main {
+    background-color: #EFEFEF;
+    width: 75%;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    display: flex;
+}
+
+h1 {
+    color: #a67c00;
+    font-family: 'Amatic SC', cursive;
+    font-size: 6em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    text-align: center;
+    float: none;
+    background-color: #EFEFEF;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    font-size: .7em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: .7em;
+}
+
+img { 
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+figure {
+    position: relative;
+    width: 22%;
+    height: 75%;
+    display: inline-block;
+    margin: 1.65%;
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+}
+
+figcaption {
+    background-color: #FFFFFF;
+    color: #FFF;
+    font-size: 90%;
+    width: 100%;
+    height: 99.4%;
+    opacity: 0;
+    position: absolute;
+    transition: opacity .4s ease;
+}
+
+figcaption:hover {
+    opacity: .7;
+}
+
+.caption {
+    text-align: center;
+    padding-top: 10%;
+    color: #a67c00;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+
+.thumbnail1{
+    flex: 1;
+}
+
+.thumbnail2 {
+    flex: 1;
+}
+
+.thumbnail3 {
+    flex: 1;
+}
+
+
+/*IPHONE*/
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+    
+    body {
+        max-width: 450px;
+    }
+    
+    
+    main {
+        display: block;
+        margin: auto;
+        max-width: 420px;
+        min-width: 300px;
+    }
+    
+    figure {
+        display: block;
+        text-align: center;
+        width: 300px;
+        margin: 0;
+    }
+    
+    figcaption {
+        opacity: .7;
+    }
+    
+    footer {
+        clear: both;
+        position: relative;
+    }
+    
+    
+}
+
+
+/*ipad*/
+@media only screen and (min-width:400px) and (max-width: 700px) {
+    
+    main {
+        width: 100%;
+        }
+    
+    body {
+        width: 100%;
+    }
+    
+    figure {
+        min-width: 200px;
+    }
+    
+    
+}

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    max-width: 1680px;
+    background: #bfbfbf;
+    background: -webkit-linear-gradient(left, #bfbfbf, #ffffff);
+    background: -o-linear-gradient(left, #bfbfbf, #ffffff);
+    background: -moz-linear-gradient(left, #bfbfbf, #ffffff);
+    background: linear-gradient(left, #bfbfbf, #ffffff);
+}
+
+article {
+    background-color: #bfbfbf;
+    padding-bottom: 20px;
+    background: -webkit-linear-gradient(left, #bfbfbf, #ffffff);
+    background: -o-linear-gradient(left, #bfbfbf, #ffffff);
+    background: -moz-linear-gradient(left, #bfbfbf, #ffffff);
+    background: linear-gradient(left, #bfbfbf, #ffffff);
+    min-height: 100%;
+}
+
+h1 {
+    color: #a67c00;
+    font-family: 'Amatic SC', cursive;
+    font-size: 9em;
+    margin-top: 18%;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+a {
+    background-color: #424242;
+    border: none;
+    color: #FFF;
+    font-family: "Amatic SC", cursive;
+    padding: 15px 32px;
+    border: 1px solid #424242;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #a67c00;
+    transition-duration: .4s;
+    -webkit-transition-duration: .4s;
+    -moz-transition-duration: .42;
+    -o-transition-duration: .4s;
+    color: #00CCD6;
+    font-family: "Amatic SC", cursive;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+footer {
+    font-size: .7em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: .7em;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+    
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    
+    div {
+        text-align: center;
+    }
+    
+    article {
+        width: 100%;
+        height: 100%;
+    }
+    
+    a {
+        display: block;
+        margin: 30px;
+        width: 200px;
+        text-align: center;
+    }
+    
+    a:hover {
+        display: block;
+        margin: 30px;
+        width: 200px;
+        text-align: center;
+    }
+    
+    footer {
+        position: relative;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width: 700px) {
+    a {
+        margin: 0 10px 0 10px;
+        width: 150px;
+        text-align: center;
+    }
+    
+    a:hover {
+        margin: 10px;
+        width: 150px;
+        text-align: center;
+    }
+    
+    footer {
+        position: relative;
+    }
+}
