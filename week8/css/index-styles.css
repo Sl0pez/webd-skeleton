@@ -125,10 +125,11 @@ footer {
         margin: 0 10px 0 10px;
         width: 150px;
         text-align: center;
+        margin: 30px;
     }
     
     a:hover {
-        margin: 10px;
+        margin: 30px;
         width: 150px;
         text-align: center;
     }
