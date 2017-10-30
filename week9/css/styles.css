@@ -1,0 +1,43 @@
+nav {
+    text-align: right;
+    margin: 2em 3em 2em 3em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+a {
+    color: #771298;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 3em;
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
+}
+
+body {
+    background-color: #565A5D;
+}
+
+div {
+    background-color: #565A5D;
+}
+
+p {
+    color: white;
+}
