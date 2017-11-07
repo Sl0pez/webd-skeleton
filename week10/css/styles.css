@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*BODY*/
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    background-color: #EFEFEF;
+}
+
+body#indexbody {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    max-width: 1680px;
+    background: #bfbfbf;
+    background: -webkit-linear-gradient(left, #bfbfbf, #ffffff);
+    background: -o-linear-gradient(left, #bfbfbf, #ffffff);
+    background: -moz-linear-gradient(left, #bfbfbf, #ffffff);
+    background: linear-gradient(left, #bfbfbf, #ffffff);
+}
+/*END BODY*/
+
+
+
+/*NAVBARS*/
+nav {
+    background-color: #424242;
+    padding-bottom: .75em;
+    padding-top: .75em;
+    opacity: .9
+}
+
+.current-page {
+    color: #a67c00;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-links:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-links:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: #00CCD6;
+}
+
+.links1 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.3em;
+}
+/*END NAVBARS*/
+
+/*H1s*/
+h1 {
+    color: #a67c00;
+    font-family: 'Amatic SC', cursive;
+    font-size: 6em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    text-align: center;
+    float: none;
+    background-color: #EFEFEF;
+}
+/*END H1s*/
+/*CONTACT FORM*/
+form {
+    display: block;
+    text-align: center;
+    background: rgba(166, 124, 0, .4);
+    margin: auto;
+    overflow: hidden;
+    width: 350px;
+    min-height: 300px;
+}
+
+input {
+    width: 200px;
+    font-size: 15px;
+    height: 25px;
+    margin: 40px;
+}
+
+textarea {
+    min-width: 250px;
+    min-height: 80px;
+    font-size: 15px;
+    max-height: 160px;
+    max-width: 300px;
+}
+
+button {
+    padding: 5px 15px 5px 15px;
+    margin: 40px;
+    background: #EFEFEF;
+    font-size: 15px;
+    color: #a67c00;
+    font-family: "Raleway", cursive;
+    border: none;
+}
+
+button:hover {
+    background: #a67c00;
+    color: #00CCD6;
+    transition-duration: .4s;
+}
+/*END CONTACT FORM*/
+
+/*FOOTER for all pages*/
+footer {
+    font-size: .7em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: .7em;
+}
+/*END FOOTER FOR ALL PAGES*/
